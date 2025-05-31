@@ -1,0 +1,4 @@
+FROM ubuntu:20.04
+LABEL maintainer="623c0013@student.mahardika.ac.id"
+RUN apt-get update
+CMD ["echo","Ini adalah container 2.."]
